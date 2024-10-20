@@ -1,0 +1,151 @@
+.section-img {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.step-img img {
+    width: 250px;
+    height: 200px;
+}
+
+.step-small-img img {
+    width: 60px;
+    margin-top: 80px;
+}
+
+.img-content p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#starting-area {
+    display: flex;
+    width: 1000px;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+#starting-button {
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: #f60;
+    color: white;
+}
+
+#starting-button::after {
+    content: '\2193';
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+
+#submit-button {
+    border: solid;
+    border-radius: 50px;
+    background: #273c75;
+    color: #fff;
+    height: 60px;
+    width: 160px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#submit-button:hover {
+    background: #f60;
+}
+
+.input-group {
+    width: 1000px;
+    margin: 20px auto;
+    height: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group input {
+    background: linear-gradient(to right, #f0e6f60d, #273c7524);
+}
+
+.input-group span svg {
+    fill: #ff0000;
+}
+
+.input-group span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input-group button:hover {
+    background: #ff0000;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.input-group button:hover svg {
+    fill: #fff;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.field-result {
+    padding: 20px;
+}
+
+.text-box {
+    padding: 30px 15px;
+    background-color: rgb(154 195 255 / 25%);
+    border-radius: 5px;
+    border-color: black;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 145px;
+    color: #478aff;
+
+}
+
+.field-result label {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.field-result label::after {
+    content: '';
+    height: 2px;
+    background: #478aff;
+    display: block;
+    margin-top: 4px;
+    width: 50%;
+}
+
+#starting-area {
+    display: flex;
+    width: 1000px;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.heading::after {
+    content: "";
+    margin: 20px auto;
+    display: block;
+    height: 10px;
+    width: 60px;
+    background: #273c75;
+}
+
+.heading {
+    font-size: 35px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
