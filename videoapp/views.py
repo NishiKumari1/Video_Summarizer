@@ -5,12 +5,7 @@ from django.http import HttpResponse
 from youtube_transcript_api import YouTubeTranscriptApi
 import google.generativeai as genai
 
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
-
-if GOOGLE_API_KEY:
-    genai.configure(api_key=GOOGLE_API_KEY)
-else:
-    raise ValueError("GOOGLE_API_KEY environment variable is not set")
+genai.configure(api_key=GOOGLE_API_KEY)
 
 # Create your views here.
 
