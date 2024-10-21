@@ -4,8 +4,6 @@ import markdown2
 from django.http import HttpResponse
 from youtube_transcript_api import YouTubeTranscriptApi
 import google.generativeai as genai
-GOOGLE_API_KEY = "AIzaSyD1onyIAXJfq1HxlMLyjR7uqC9DciY_vUc"
-GOOGLE_MODEL = "gemini-pro"
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
