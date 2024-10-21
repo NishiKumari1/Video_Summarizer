@@ -2,6 +2,7 @@ from django.shortcuts import render
 import re
 import markdown2
 from django.http import HttpResponse
+from django.conf import settings
 from youtube_transcript_api import YouTubeTranscriptApi
 import google.generativeai as genai
 
