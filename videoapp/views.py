@@ -1,6 +1,5 @@
 from django.shortcuts import render
 import re
-import logging
 import markdown2
 from django.http import HttpResponse
 from youtube_transcript_api import YouTubeTranscriptApi
