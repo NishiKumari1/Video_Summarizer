@@ -5,12 +5,9 @@ import markdown2
 from django.http import HttpResponse
 from youtube_transcript_api import YouTubeTranscriptApi
 import google.generativeai as genai
-from dotenv import load_dotenv
+from django.conf import settings
 
-load_dotenv()
-
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
-GOOGLE_MODEL = os.getenv('GOOGLE_MODEL')
+genai.configure(api_key=settings.GOOGLE_API_KEY)
 
 # Create your views here.
 
