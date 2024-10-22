@@ -22,7 +22,7 @@
       }
     ],
     "env": {
-      "GOOGLE_API_KEY": "@google_api_key",
-      "GOOGLE_MODEL": "@google_model"
+      "GOOGLE_API_KEY": "@AIzaSyD1onyIAXJfq1HxlMLyjR7uqC9DciY_vUc",
+      "GOOGLE_MODEL": "@gemini-pro"
     }
   }
