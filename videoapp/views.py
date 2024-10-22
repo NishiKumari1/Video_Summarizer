@@ -40,7 +40,7 @@ def video_summarization(request):
             transcript = get_video_transcript(video_id)
 
             # Use Generative AI Gemini Pro for both main summary and descriptive summary
-            model = genai.GenerativeModel(GOOGLE_MODEL)
+            model = genai.GenerativeModel(settings.GOOGLE_MODEL)
             
             # Generate main summary headings
             response = model.generate_content(
